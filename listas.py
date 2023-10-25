@@ -231,7 +231,8 @@ while indice < len(cores):
 # Gerar indice em um for
 for indice, cor in enumerate(cores):
     print(indice, cor)
-
+#podendo tambem ser usado da seguinte maneira: cores = list(enumerate(cores)) que ira criar uma lista 
+#com os indices e as cores >> cores = list(enumerate(cores))
 # Listas aceitam valores repetidos
 lista = []
 lista.append(42)
@@ -280,7 +281,7 @@ print(numeros.index(8, 3, 6)) # Buscar o indice do valro 8, entre os índices 3 
 
 lista = [1, 2, 3, 4]
 
-print(lista[1:])  # Iniciando no índice 1 e pegando todos os relementos restantes
+print(lista[1:])  # Iniciando no índice 1 e pegando todos os sair elementos restantes
 
 # Trabalhando com slice de lista com o parâmetro 'fim'
 

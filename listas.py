@@ -294,9 +294,9 @@ print(lista[1:3]) # começa em 1, pega até o índice 3 - 1 [2, 3]
 
 # Trabalhando com slice de lista com o parâmetro 'passo'
 
-print(lista[1::2])  # Começa em 1, vai até o final, de 2 em 2
+print(lista[1::2])  # Começa em 1, vai até o final, de 2 em 2 [2, 4]
 
-print(lista[::2])  # Começa em 0, vai até o final, de 2 em 2
+print(lista[::2])  # Começa em 0, vai até o final, de 2 em 2  [1, 3]
 
 # Invertendo valores em uma lista
 

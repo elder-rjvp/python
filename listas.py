@@ -281,15 +281,15 @@ print(numeros.index(8, 3, 6)) # Buscar o indice do valro 8, entre os índices 3 
 
 lista = [1, 2, 3, 4]
 
-print(lista[1:])  # Iniciando no índice 1 e pegando todos os sair elementos restantes
+print(lista[1:])  # Iniciando no índice 1 e pegando todos os sair elementos restantes [2, 3, 4]
 
 # Trabalhando com slice de lista com o parâmetro 'fim'
 
-print(lista[:2])  # começa em 0, pega até o índice 2 - 1
+print(lista[:2])  # começa em 0, pega até o índice 2 - 1 [1, 2]
 
-print(lista[:4])  # começa em 0, pega até o índice 4 - 1
+print(lista[:4])  # começa em 0, pega até o índice 4 - 1 [1, 2, 3, 4]
 
-print(lista[1:3]) # começa em 1, pega até o índice 3 - 1
+print(lista[1:3]) # começa em 1, pega até o índice 3 - 1 [2, 3]
 
 
 # Trabalhando com slice de lista com o parâmetro 'passo'

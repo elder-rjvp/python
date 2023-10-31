@@ -59,3 +59,6 @@ print(res)
 
 # Encontrando as 5 palavras com mais ocorrência no texto
 print(res.most_common(5))
+
+#print(sorted(res.elements())) colaca em ordem alfabetica todas as palavar
+#sendo que as maiusculas vem a frente ex: [A, B, a, b]
